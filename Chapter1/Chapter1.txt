@@ -1,0 +1,50 @@
+QUESTIONS
+
+1.1-1) 
+	We want to sort some people from the shortest to the tallest.
+    We want to compute the planimetry of a house given the coordinates of the intersections between walls (it might be concave though)
+    
+1.1-2) 
+	How many other resources the algorithm needs (e.g. memory)
+
+1.1-3) 
+	Linked lists. Strengths are insertion and removal of elements (no need to reallocate memory), weaknesses are finding an element (it always requires linear search).
+
+1.1-4) 
+	They are similar in the sense that we want to find the best path to follow, they are different about what the parameters to evaluate a path are (in the first case it's the total length, in the second is the most convenient to go back to the initial location after the path is completed).
+
+1.1-5) 
+	Find the cheapest flight from a city to another one. Find directions from a location to another one (not necessarily the shortest path, but the path must be efficient enough).
+
+
+1.2-1) 
+	A simple videogame with a basic collision detection algorithm. The function of the algorithm is to detect whether two edges of two graphical objects intersect/are tangent to each other.
+
+1.2-2) We should setup a simple disequation: 
+	8n^2 < 64n(lgn)
+	8n < 64(lgn)
+	n < 8(lgn)
+
+	The minimum value of n for the disequation to hold is 65. So for n < 64 insertion sort is faster.
+
+1.2-3)
+
+	100 n^2 < 2^n
+
+	The smallest value of n is 0. For n = 1 in fact is 100 < 2 which is false.
+
+PROBLEMS
+
+1-1)
+			1s			1m			1h			1d			1mo			1y			100y
+
+	lg(n)	2^(10^6)	60*...		3600*...	...			...			...			...		// Just inc. c.
+	sqrt(n)	10^36
+	n 		10^6
+	n*lg(n)	10^5
+	n^2 	1000
+	n^3 	100
+	2^n 	19
+	n!		9
+
+	

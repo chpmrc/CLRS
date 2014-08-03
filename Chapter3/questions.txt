@@ -1,0 +1,32 @@
+3.1-1) 
+    Of course any function can be sandwiched by itself, in this case we are also adding it to another nonnegative function so it's obvious.
+
+3.1-2)
+    We have to find c1 and c2
+
+    1 * n^b <= (n + a)^b <= (1 + a) * n^b
+
+3.1-3)
+    Beacause the running time of an algorithm is expressed by a function that belongs to the set of O-notation. O-notation already expresses a minimum running time constraint.
+    Plus, what does "at least" mean? That the complexity can be O(n^3)? What kind of bs is this? XD 
+
+3.1-4)
+    h(n) = O(f(n)) = there exist n0, c1 such that h(n) <= c1*f(n)
+
+    2^(n+1) <= 2*2^n YES
+
+    2^2n <= 2^n  NO because we are forced to use n which is not constant
+
+3.1-5)
+    If f(n) = O(g(n)) it means there are n0, c such that f(n) <= c*g(n)
+    If f(n) = O(g(n)) it means there are n0, c such that f(n) >= c*g(n)
+    In the end c1*g(n) <= f(n) <= c2*g(n) which is the definition of Th(n).
+
+3.1-6)
+    TODO
+
+3.1-7)
+    TODO
+
+3.1-8)
+    TODO
